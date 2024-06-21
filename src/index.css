@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Arial";
+}
+.navbar{
+  background-color: blanchedalmond !important;
+}
+.navbar-collapse{
+
+  display:flex !important;
+  justify-content: end !important;
+}
+.card-center{
+  display:flex !important;
+  justify-content: center !important;
+}
+.title{
+  
+    font-family: "Arial","Original Surfer", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:rgb(163, 62, 0);
+  text-align:center !important;
+  font-size: 50px !important;
+  
+}
+.navbar-brand{
+  color:rgb(255, 145, 0);
+ 
+    font-size: 2em;
+    text-shadow: 
+        -2px -2px 2px #000,  
+        2px -2px 2px #000,  
+        -2px 2px 2px #000,  
+        2px 2px 2px #000; 
+
+
+}
+.nav-link{
+
+  color:rgb(255, 128, 0) !important;
+}
+nav {
+  font-family: "Arial","Redressed", cursive;
+  font-weight: 800 !important;
+  font-style: normal !important;
+  font-size: 20px !important;
+}
+
+.card{
+  background-color: rgb(219, 186, 143) !important;
+}
+body{
+  background-color: wheat;
+  font-family: "Srisakdi", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+h3,h4,h5,h6{
+  font-family: "Arial","Srisakdi", system-ui;
+  font-weight: 700 !important;
+  font-style: normal;
+  color: rgb(123, 70, 0) !important;
+}
+
+footer{
+  padding: 20px !important;
+  text-align: center !important;
+  margin-top:5px !important;
+  background-color: rgb(245, 195, 154) !important;
+}
+.btn{
+  font-family: cursive !important;
+  font-weight: 700 !important;
+  font-style: normal;
+  color: rgb(130, 100, 60) !important;
+}
+label{
+
+  font-family:"Arial",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700 !important;
+  font-style: normal;
+  color: rgb(123, 70, 0) !important;
+
+}
+.card-format{
+  width:50% !important;
+
+}
+
+.home-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 20px !important;
+  background-color: #f5f5f5 !important;
+  min-height: 100vh !important;
+  gap: 30px !important;
+}
+footer{
+  font-family: "Arial",Verdana, Geneva, Tahoma, sans-serif !important;
+}
+.card-sep{
+  padding:30px !important
+}
+dt{
+  font-weight:bolder !important;
+  font-family: "Arial",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.head{
+  font-family: "Arial",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+}
+.fa{
+  font-size: 400px !important;
+  color:rgb(117, 188, 10) !important
+  }
+@media (max-width: 575.98px) { 
+.card-format{
+  width:100% !important;
+}
+input{
+  width:75% !important;
+}
+.fa{
+  font-size: 300px !important;
+  color:rgb(117, 188, 10) !important
+  }
+
+ }
+
+
